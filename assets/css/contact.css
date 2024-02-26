@@ -1,3 +1,4 @@
+/* Navbar */
 .container {
     display: flex;
     align-items: center;
@@ -13,7 +14,8 @@
     font-size: 20px;
     padding-left: 20px;
   }
-  
+
+/* Map */
 .google-map {
     padding-bottom: 50%;
     position: relative;
@@ -27,6 +29,7 @@
     position: absolute;
 }
 
+/* Contact Form */
 * {
   box-sizing: border-box;
 }
@@ -34,7 +37,7 @@
 /* Style inputs */
 input[type=text], select, textarea {
   width: 100%;
-  padding: 12px;
+  padding: 2px;
   border: 1px solid #ccc;
   margin-top: 6px;
   margin-bottom: 16px;
@@ -54,7 +57,7 @@ input[type=submit]:hover {
 }
 
 /* Style the container/contact section */
-.container {
+.container-contactform {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 10px;
