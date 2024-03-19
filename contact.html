@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <style>
-  </style>
-<head>
- <!--navbar bootstrap-->
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="assets/css/contact.css">
+ <link rel="stylesheet" href="assets/css/style.css">
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
  <title>Darren's Barbershop</title>
 </head>
-<body>
-   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<body style="background-color:#514d42;">
+  <!--navbar bootstrap-->   
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
        <div class="container-fluid">
          <a class="navbar-brand" href="#">Darren's Barbershop</a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +17,7 @@
          </button>
          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
            <div class="navbar-nav">
-             <a class="nav-link active" aria-current="page" href="#">Contact</a>
+             <a class="nav-link active" aria-current="page" href="#">Meet The Team/Contact</a>
              <a class="nav-link" href="index.html">Home</a>
              <a class="nav-link" href="pricelist.html">Price List</a>
              <a class="nav-link" href="booking.html">Booking</a>
@@ -28,6 +26,53 @@
          </div>
        </div>
      </nav>
+  
+<!--meet the team-->
+<h1>Meet The Team</h1>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="assets/images/darren.jpg" alt="Darren" width="200" height="350" style="border:0">
+      <div class="container">
+        <h2>Darren</h2>
+        <p class="title">CEO &amp; Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/assets/images/glenprofile.jpg" alt="Glen" width="200" height="350" style="border:0">
+      <div class="container">
+        <h2>Glen</h2>
+        <p class="title">Senior barber</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+  <div class="column">
+    <div class="card">
+      <img src="assets/images/kevinprofile.jpg" alt="Kevin" width="200" height="350" style="border:0">
+      <div class="container">
+        <h2>Kevin</h2>
+        <p class="title">Junior barber</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+ 
+
 
 
  <!--Address and phone number-->
@@ -67,9 +112,9 @@
     <h2>Contact Us</h2>
     
     <p>General Enquiries: For enquiries outside of what’s on the website.<br/>
-      Hire Me to Speak: For talks, keynote conferences and other speaking engagements.<br/>
-      Press Enquiries: For all interviews, media opportunities and other press-related activity.<br/>
-      Apprenticeship or work experience: To gain expert experience in barbering.<br/>           
+      <br>Hire Me to Speak: For talks, keynote conferences and other speaking engagements.<br/>
+      <br>Press Enquiries: For all interviews, media opportunities and other press-related activity.<br/>
+      <br>Apprenticeship or work experience: To gain expert experience in barbering.<br/>           
   </div>
   <div class="row">
    
@@ -79,7 +124,7 @@
         <label for="fname">Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
         <label for="lname">Email address</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <input type="text" id="lname" name="lastname" placeholder="Your email addrress.">
         <label for="subject">Message</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
         <input type="submit" value="Submit">
@@ -88,6 +133,7 @@
   </div>
 </div>
 
+<footer>
 <!--Footer bootstrap-->
 <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
     
@@ -102,7 +148,7 @@
   </symbol>
 </svg>
 
-<div class="container">
+<div class="container-contactform">
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
     <div class="col-md-4 d-flex align-items-center">
       <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
@@ -120,4 +166,4 @@
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
-</body>
+</html>
