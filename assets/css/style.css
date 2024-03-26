@@ -1,3 +1,15 @@
+
+*{
+  margin-left: 20px;
+  margin-right: 30px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #D9D9D9
+}
+
+
+
 /*--------------------------------------------Colors*/
 h1 {
   color:#D9D9D9;
@@ -5,16 +17,23 @@ h1 {
 }
 
 h2 {
-  color:#8f8f8f;
+  color:#D9D9D9;
+  ;
 }
 /*--------------------------------------------Description*/
+
+.hero-text h1 > strong, p > strong {
+  color: #e23838;
+ 
+ }
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),;
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  margin: 0pc;
+  filter: opacity(80%);
   
 }
 
@@ -27,38 +46,48 @@ h2 {
   
 }
 
-.hero-text h1 > strong, p > strong {
- color: #A30B37;
 
-}
 
 
 /*--------------------------------------------Description*/
 *{
-  margin: 0;
+  margin-left: 20px;
+  margin-right: 30px;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   color: #D9D9D9
 }
 
-.wrapper {
-  margin: 100px auto;
+
+.container-description-one {
+  margin: 100px;
   width: auto;
+  clear:left;
+}
+
+.container-description-two {
+  margin: 100px;
+  width: auto;
+  clear:left;
 }
 
 
 .barbershop-text img {
   max-width: 320px;
-  float: left;
   border: 3px solid rgba(0, 0, 0, 0);
   border-radius: 10px;
   margin-right: 9px;
+  float: right;
 
 }
 
-.text-box {
-  color: #555;
+.barbershop-text, image-two {
+  min-width: 100px;
+  border: 3px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  margin-right: 9px;
+  float: right;
 
 }
 
@@ -66,6 +95,19 @@ h2 {
   font-size: 24px;
 
 }
+
+.barbershop-pictures {
+  width:640px;
+  height:360px;
+}
+
+ /* carousel */
+ .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 100%;
+ 
+    }
+  
+
 
 /*--------------------------------------------footer*/
 
@@ -101,13 +143,6 @@ footer {
 #footer-details {
     padding: 20px;
 }
-
-
-
-  /* carousel */
-  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-width: 100%;
-  }
 
   /*----------- meet the team */
 /* Three columns side by side */
@@ -242,4 +277,22 @@ clear: both;
   width: 100%;
   margin-top: 0;
 }
+}
+
+.table h1{
+  text-align: center
+}
+
+tr {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+tr, th, td {
+	
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
 }
