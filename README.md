@@ -89,7 +89,7 @@ I've used [Figma](https://www.figma.com/files/recents-and-sharing/recently-viewe
 
 These screenshots were taken before the start of the project throughout the design process the pages have slight variations compared to the orginal wireframe.
 
-[Click here to see the Mobile Wireframes](https://www.figma.com/files/recents-and-sharing/recently-viewed?fuid=1312128635675800480)
+[Click here to see the Mobile Wireframes]()
 
 Home
   - ![screenshot](assets/Documentation/desktop-home.png)
@@ -125,66 +125,60 @@ etc.
 
 ## Features
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
-
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
 ### Existing Features
 
-- **YOUR-TITLE-FOR-FEATURE-#1**
+- **NAVBAR**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The navbar is an interactive feature on the website which allows users to navigate around, the benefit to site is that it allows user to navigate the website easier and find the pages they're either on or wnat to find. 
+    
 
-![screenshot](documentation/features/feature01.png)
+![screenshot](assets/Documentation/feature01.png)
 
-- **YOUR-TITLE-FOR-FEATURE-#2**
+- **CAROSUEL**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The carosuel is an interactive feature on the website which allows images to be added to the website, to help adversite the business. 
+    At the moment it contains pictures of customers and the staff that work at the company. it allows the user to see types of haircut available and familrise themsleves with the staff.
 
-![screenshot](documentation/features/feature02.png)
+![screenshot](assets/Documentation/feature02.png)
 
-- **YOUR-TITLE-FOR-FEATURE-#3**
+- **SOCIAL MEDIA LINKS**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The social media links show the various social media apps used by the business. It helps to build loyalty and trust in your brand, to help adversite the business and helps to interact directly with customers in real time. It allows the user to interact with the business.
 
-![screenshot](documentation/features/feature03.png)
+![screenshot](assets/Documentation/feature03.png)
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
+- **GOOGLE MAPS**
 
-Repeat as necessary for as many features as your site contains.
+    - The Map shows the business location, the benefit of the google map is that its interactive and shows landmarks and transport links around the business. The benefit for the user is that its an interactive map so both existing and current users can plan there journey to the business.
 
-Hint: the more, the merrier!
+![screenshot](assets/Documentation/feature04.png)
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+- **PRICE LIST**
+
+    - The pricelist a useful communciation tool it shows the services offered and the price of the services provided by the business, the benefit of the pricelist is that the user know how much a service is and whats on offer at the business
+
+![screenshot](assets/Documentation/feature06.png)
+
+- **BOOKING FORM**
+
+    - The booking form a useful communciation tool it allows both new and existing users, the benefit of the booking form is that new and existing users can book a service, with the staff member they prefer on a choosen day and time they prefer. The benefit to business is that its opens up the business to wider audience and encourges more users.
+
+![screenshot](assets/Documentation/feature07.png)
+
 
 ### Future Features
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
 
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
+- BOOKING FORM AND CONTACT US FORM
+    - A number of the limitations are the both the booking form and the contact us form.
+    The contact us form on html only allows response sent message, whereas with a back-end aplication an e-mail would be sent to the adress of the inquiry, alongside a message comfirmed acknowledgement.
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+     - With booking form again its only html, so the respsonse is limited and just a 'message received' message. A back-end apllication would allow more interaction such as a calendar to show avialbility of the barbers, the ablility to pay for services directly online and more interaction with customers for example like the Pall Mall barbershop [website](https://www.pallmallbarbers.com/)
+  you can see better ineraction they have a booking form via a booking service like Fresha online booking app [website](https://www.fresha.com/), with mulitple locations available, a calendar and choice of staff and service.
 
-- YOUR-TITLE-FOR-FUTURE-FEATURE-#1
-    - Any additional notes about this feature.
-- YOUR-TITLE-FOR-FUTURE-FEATURE-#2
-    - Any additional notes about this feature.
-- YOUR-TITLE-FOR-FUTURE-FEATURE-#3
-    - Any additional notes about this feature.
+- SHOP
+    - A shop isn't really realstic without a back-end apllication. A shop would allow more interaction with new and existing customers and a opportunity for the expansion of the business by alowing the business to prodvide grooming products for sale and the ablility for users to pay for services directly online and more interaction with customers for example like the Murdock of London barbershop [website](https://www.murdocklondon.com/) you can see better interaction they have a shop which sells various grooming products.
+
 
 ## Tools & Technologies Used
 
@@ -196,9 +190,6 @@ Consider adding any helpful links or notes to help remind you in the future, if 
 - [![CSS](https://img.shields.io/badge/CSS-grey?logo=css3&logoColor=1572B6)](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
 - [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) used for hosting the deployed front-end site.
 - [![Bootstrap](https://img.shields.io/badge/Bootstrap-grey?logo=bootstrap&logoColor=7952B3)](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [![Google Sheets](https://img.shields.io/badge/Google_Sheets-grey?logo=googlesheets&logoColor=34A853)](https://docs.google.com/spreadsheets) used for storing data from my Python app.
-- [![Gmail API](https://img.shields.io/badge/Gmail_API-grey?logo=gmail&logoColor=EA4335)](https://mail.google.com) used for sending emails in my application.
-- [![Google Maps API](https://img.shields.io/badge/Google_Maps_API-grey?logo=googlemaps&logoColor=4285F4)](https://developers.google.com/maps) used as an interactive map on my site.
 - [![Font Awesome](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com) used for the icons.
 - [![ChatGPT](https://img.shields.io/badge/ChatGPT-grey?logo=chromatic&logoColor=75A99C)](https://chat.openai.com) used to help debug, troubleshoot, and explain things.
 
@@ -322,7 +313,6 @@ by sending yourself the following command: `!freemedia`.
 | [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
 | [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
 | [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
 | [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
 
 ### Acknowledgements
