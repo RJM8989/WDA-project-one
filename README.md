@@ -5,7 +5,8 @@
 [![GitHub repo size](https://img.shields.io/github/repo-size/RJM8989/WDA-project-one)](https://github.com/RJM8989/WDA-project-one)
 
 
-This project was to design a front-end website for Darren's Barbershop. The aims of this project was that the website would generate traffic from a wider audience to help increase the amonut of new customers for the business as well as catering for existing customers through the use of a booking form. The website also has information for new and existing customers such as an decription of each barber, the address, a google map, etc...
+This project was to design a front-end website for Darren's Barbershop. The aim of this project was that the website would generate traffic from a wider audience to help increase the number of new customers for the business as well as cater for existing customers through the use of a booking form. The website also has information for new and existing customers such as a description of each barber, the address, a Google map, etc...
+
 
 
 --------
@@ -17,7 +18,11 @@ source: [amiresponsive](https://ui.dev/amiresponsive?url=https://rjm8989.github.
 ## UX
 
 
-In this section, you will briefly explain your design processes.
+The strategy of the website was to promote the business and attract both physical and virtual traffic. To achieve this, I conducted research on similar websites to analyze how they advertised their business and the services they offered. Based on my research for the scope, I decided to include a price list, the business location, and a way for users to interact with the website, which led me to include a contact form and a booking form. Additionally, I added pictures of the staff and the services offered to the website.
+
+For the skeleton and structure of the website, I used Figma for the wireframes. I decided to have a simple navbar at the top of the page, with three pages: Home, Contact/Meet the Team, and Price List. The Home page included an introduction and pictures of hairstyles and previous customers. The Contact/Meet the Team page introduced the staff and provided information such as the business location, opening times, a map, and a contact form. Finally, the Price List page listed the services and allowed users to book a service and choose their preferred barber.
+
+At the surface level, I added a carousel to the website, so users could look at pictures of the business. For the location, I chose a Google map because it was interactive and provided information on transport links and landmarks. The contact and book forms had multicoloured buttons to improve accessibility, and I chose a colour scheme that contrasted bold and bright colours with brown, red, and silver-grey for the text.
 
 
 ### Colour Scheme
@@ -50,26 +55,23 @@ I used [coolors.co](https://coolors.co/514d42-d9d9d9-a30b370) to generate my col
 ## User Stories
 
 
-
-In this section, list all of your user stories for the project.
-
-
-
 ### New Site Users
 
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
+- As a new site user, I want to be able to find the location I need quickly so that I don’t have to waste time browsing Google Maps.
+- As a new site user, I want to be able to find the price list quickly so that I can find the prices of the services offered.
+- As a new site user, I want to be able to see different hairstyles so that I can see the haircuts I would prefer.
+- As a new site user, I would like to you the contact form, so that I can enquire about of one the services offered.
+- As a new site user, I would like to use the social media links, so that I can follow the business online.
 
 ### Returning Site Users
 
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
+
+- As a returning site user, I would like to be able to book an appointment, the booking form would allow me to do this.
+- As a returning site user, I would like to use the booking, so that I can pick my preferred barber.
+- As a returning site user would like to use the social media links so that I can keep updated on the business online.
+- As a returning site user, I want to be able to see different hairstyles so that I can see the haircuts I would prefer.
+- As a returning site user, I want to be able to find the price-list I need quickly so that compare the prices of the services offered.
+
 
 ## Wireframes
 
@@ -83,7 +85,7 @@ Dropdowns in Markdown are considered some of the only acceptable HTML components
 
 
 To follow best practice, wireframes were developed for mobile and desktop sizes.
-I've used [Figma](https://www.figma.com/files/recents-and-sharing/recently-viewed?fuid=1312128635675800480) to design my site wireframes.
+I've used both [Balsamiq](https://balsamiq.com/wireframes/) and [Figma](https://www.figma.com/files/recents-and-sharing/recently-viewed?fuid=1312128635675800480) to design my site wireframes.
 
 ### Desktop Wireframes
 
@@ -103,25 +105,16 @@ Price List
 
 ### Mobile Wireframes
 
-< details >
-< summary > Click here to see the Desktop Wireframes < / summary >
 
 Home
-  - ![screenshot](documentation/wireframes/desktop-home.png)
+  - ![screenshot](assets/Documentation/mobile-home.png)
 
-About
-  - ![screenshot](documentation/wireframes/desktop-about.png)
+Meet The Team/Contact
+  - ![screenshot](assets/Documentation/mobile-meettheteam.png)
 
-Contact
-  - ![screenshot](documentation/wireframes/desktop-contact.png)
+Price List
+  - ![screenshot](assets/Documentation/mobile-pricelist.png)
 
-Gallery
-  - ![screenshot](documentation/wireframes/desktop-gallery.png)
-
-etc.
-  - repeat for any remaining desktop wireframes
-
-< / details >
 
 ## Features
 
@@ -129,39 +122,41 @@ etc.
 
 - **NAVBAR**
 
-    - The navbar is an interactive feature on the website which allows users to navigate around, the benefit to site is that it allows user to navigate the website easier and find the pages they're either on or wnat to find. 
+    - The navbar is an interactive feature on the website which allows users to navigate around, the benefit to the site is that it allows users to navigate the website easier and find the pages they're either on or want to find. 
     
 
 ![screenshot](assets/Documentation/feature01.png)
 
-- **CAROSUEL**
+- **CAROUSEL**
 
-    - The carosuel is an interactive feature on the website which allows images to be added to the website, to help adversite the business. 
-    At the moment it contains pictures of customers and the staff that work at the company. it allows the user to see types of haircut available and familrise themsleves with the staff.
+    - The carousel is an interactive feature on the website which allows images to be added to the website, to help advertise the business. 
+    At the moment it contains pictures of customers and the staff that work at the company. it allows the user to see the types of haircuts available and familiarise themselves with the staff.
+
 
 ![screenshot](assets/Documentation/feature02.png)
 
 - **SOCIAL MEDIA LINKS**
 
-    - The social media links show the various social media apps used by the business. It helps to build loyalty and trust in your brand, to help adversite the business and helps to interact directly with customers in real time. It allows the user to interact with the business.
+    - The social media links show the various social media apps used by the business. It helps to build loyalty and trust in your brand, to help advertise the business and to interact directly with customers in real-time. It allows the user to interact with the business.
 
 ![screenshot](assets/Documentation/feature03.png)
 
 - **GOOGLE MAPS**
 
-    - The Map shows the business location, the benefit of the google map is that its interactive and shows landmarks and transport links around the business. The benefit for the user is that its an interactive map so both existing and current users can plan there journey to the business.
+    - The Map shows the business location, the benefit of the Google map is that it's interactive and shows landmarks and transport links around the business. The benefit for the user is that it’s an interactive map so both existing and current users can plan their journey to the business.
+
 
 ![screenshot](assets/Documentation/feature04.png)
 
 - **PRICE LIST**
 
-    - The pricelist a useful communciation tool it shows the services offered and the price of the services provided by the business, the benefit of the pricelist is that the user know how much a service is and whats on offer at the business
+    - The price list is a useful communication tool it shows the services offered and the price of the services provided by the business, the benefit of the price list is that the user knows how much a service is and what is on offer at the business.
 
 ![screenshot](assets/Documentation/feature06.png)
 
 - **BOOKING FORM**
 
-    - The booking form a useful communciation tool it allows both new and existing users, the benefit of the booking form is that new and existing users can book a service, with the staff member they prefer on a choosen day and time they prefer. The benefit to business is that its opens up the business to wider audience and encourges more users.
+    - The booking form is a useful communication tool that allows both new and existing users, the benefit of the booking form is that new and existing users can book a service, with the staff member they prefer on a chosen day and time they prefer. The business benefit is that it opens up the business to a wider audience and encourages more users.
 
 ![screenshot](assets/Documentation/feature07.png)
 
@@ -170,14 +165,16 @@ etc.
 
 
 - BOOKING FORM AND CONTACT US FORM
-    - A number of the limitations are the both the booking form and the contact us form.
-    The contact us form on html only allows response sent message, whereas with a back-end aplication an e-mail would be sent to the adress of the inquiry, alongside a message comfirmed acknowledgement.
+    - A number of the limitations are both the booking form and the contact us form.
+    The Contact Us form on HTML only allows a response sent message, whereas, with a back-end application, an e-mail would be sent to the address of the inquiry, alongside a message confirmed acknowledgement.
 
-     - With booking form again its only html, so the respsonse is limited and just a 'message received' message. A back-end apllication would allow more interaction such as a calendar to show avialbility of the barbers, the ablility to pay for services directly online and more interaction with customers for example like the Pall Mall barbershop [website](https://www.pallmallbarbers.com/)
-  you can see better ineraction they have a booking form via a booking service like Fresha online booking app [website](https://www.fresha.com/), with mulitple locations available, a calendar and choice of staff and service.
+    - With the booking form again it’s only HTML and CSS, so the response is limited and just a 'message received' message. A back-end application would allow more interaction such as a calendar to show the availability of the barbers, the ability to pay for services directly online and more interaction with customers for example the Pall Mall barbershop [website](https://www.pallmallbarbers.com/) you can see better interaction they have a booking form via a booking service like the Fresha online booking app [website](https://www.fresha.com/), with multiple locations available, a calendar and a choice of staff and service.
 
-- SHOP
-    - A shop isn't really realstic without a back-end apllication. A shop would allow more interaction with new and existing customers and a opportunity for the expansion of the business by alowing the business to prodvide grooming products for sale and the ablility for users to pay for services directly online and more interaction with customers for example like the Murdock of London barbershop [website](https://www.murdocklondon.com/) you can see better interaction they have a shop which sells various grooming products.
+- GOOGLE REVIEWS
+    - Google reviews can increase online visibility and exposure, and positive reviews can boost your search engine rankings which in turn increases your online visibility and traffic. increase brand trust because people trust reviews from other customers. They also improve customer experience and help you gain a competitive advantage through both negative and positive feedback and customer interaction when a review is submitted, businesses can respond and engage with that customer.
+
+
+
 
 
 ## Tools & Technologies Used
@@ -243,82 +240,46 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
 
 Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 ## Credits
 
 
-
-In this section you need to reference where you got your content, media, and extra help from.
-It is common practice to use code from other repositories and tutorials,
-however, it is important to be very specific about these sources to avoid plagiarism.
-
-
 ### Content
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
-A few examples have been provided below to give you some ideas.
-
-Ideally, you should provide an actual link to every resource used, not just a generic link to the main site!
-
-⚠️⚠️ EXAMPLE LINKS - REPLACE WITH YOUR OWN ⚠️⚠️
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
-| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
-| [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
-| [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
-| [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
-| [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
-| [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
-| [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
-| [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
-| [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
+| [W3Schools](https://www.w3schools.com/howto/howto_css_blurred_background.asp) | Hero Image | blurred box on hero image |
+| [W3Schools](https://www.w3schools.com/howto/howto_css_contact_section.asp) | Contact form | interactive contact form |
+| [Bootstrap](https://getbootstrap.com/docs/5.3/components/carousel/) | Carousel | pictures on home page |
+| [Bootstrap](https://getbootstrap.com/docs/5.3/content/tables/) | Tables | table for the pricelist |
+| [Bootstrap](https://getbootstrap.com/docs/5.3/components/card/) | Card | for meet the team and booking page |
+| [Bootstrap](https://getbootstrap.com/docs/5.3/components/navbar/) | Navbar |  responsive HTML/CSS navbar |
+| [HubSpot](https://blog.hubspot.com/website/how-to-embed-google-map-in-html)| How to Embed Google Map in HTML| Google map |
+| [Stack Overflow](https://stackoverflow.com/questions/37738278/how-to-create-an-hours-of-operation-list-with-html-and-css)| How to create an Hours of Operation list with HTML and CSS?| opening times |
+| [YouTube](https://www.youtube.com/watch?v=6t_dYhXyYjI&t=2235s) | Free Figma Tutorial: Designing Wireframes with Figma | wireframes|
+| [Code Institute](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/) |Putting It All Together, Mini Project with Bootstrap 4, The Footer| footer|
+
+
 
 ### Media
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
-A few examples have been provided below to give you some ideas.
-
-If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
-Let the assessors know that you have explicit rights to use the media files within your project.
-
-Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
-The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
-by sending yourself the following command: `!freemedia`.
-
-⚠️⚠️ EXAMPLE LINKS - REPLACE WITH YOUR OWN ⚠️⚠️
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
+| [Pexels](https://www.pexels.com/@rdne/) | entire site | image | images  on all pages |
 | [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+| [Font awesome](https://fontawesome.com/icons/) | entire site | icons | icons in the footer |
 
 ### Acknowledgements
 
+- I would like to thank my tutor, Pasquale Fasulo for his support throughout the development of this project.
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
-- I would like to thank my partner (John/Jane), for believing in me, and allowing me to make this transition into software development.
-- I would like to thank my employer, for supporting me in my career development change towards becoming a software developer.
+
