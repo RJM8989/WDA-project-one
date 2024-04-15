@@ -75,15 +75,6 @@ I used [coolors.co](https://coolors.co/514d42-d9d9d9-a30b370) to generate my col
 
 ## Wireframes
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
-
-In this section, display your wireframe screenshots using a Markdown `table`.
-Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html
-
-Alternatively, dropdowns are a way to condense several wireframes into a collapsible menu to save space.
-Dropdowns in Markdown are considered some of the only acceptable HTML components that are allowed for assessment purposes.
-
-
 To follow best practice, wireframes were developed for mobile and desktop sizes.
 I've used both [Balsamiq](https://balsamiq.com/wireframes/) and [Figma](https://www.figma.com/files/recents-and-sharing/recently-viewed?fuid=1312128635675800480) to design my site wireframes.
 
@@ -91,7 +82,7 @@ I've used both [Balsamiq](https://balsamiq.com/wireframes/) and [Figma](https://
 
 These screenshots were taken before the start of the project throughout the design process the pages have slight variations compared to the orginal wireframe.
 
-[Click here to see the Mobile Wireframes]()
+[Click here to see the Desktop Wireframes]()
 
 Home
   - ![screenshot](assets/Documentation/desktop-home.png)
@@ -105,6 +96,7 @@ Price List
 
 ### Mobile Wireframes
 
+[Click here to see the Mobile Wireframes]()
 
 Home
   - ![screenshot](assets/Documentation/mobile-home.png)
@@ -165,10 +157,8 @@ Price List
 
 
 - BOOKING FORM AND CONTACT US FORM
-    - A number of the limitations are both the booking form and the contact us form.
-    The Contact Us form on HTML only allows a response sent message, whereas, with a back-end application, an e-mail would be sent to the address of the inquiry, alongside a message confirmed acknowledgement.
-
-    - With the booking form again it’s only HTML and CSS, so the response is limited and just a 'message received' message. A back-end application would allow more interaction such as a calendar to show the availability of the barbers, the ability to pay for services directly online and more interaction with customers for example the Pall Mall barbershop [website](https://www.pallmallbarbers.com/) you can see better interaction they have a booking form via a booking service like the Fresha online booking app [website](https://www.fresha.com/), with multiple locations available, a calendar and a choice of staff and service.
+    
+   - A number of the limitations are both the booking form and the contact us form. The Contact Us form on HTML only allows a response sent message, whereas, with a back-end application such as PHP so I can design an interactive booking form, an e-mail would be sent to the address of the inquiry, alongside a message confirming acknowledgement, and JavaScript so I can design an interactive booking form where it would have a calendar and time to book a particular service and barber, the availability of the barbers and the ability to pay for services directly online and more interaction with customers for example the Pall Mall barbershop [website](https://www.pallmallbarbers.com/) you can see better interaction they have a booking form via a booking service like the Fresha online booking app [website](https://www.fresha.com/), with multiple locations available, a calendar and a choice of staff and service.
 
 - GOOGLE REVIEWS
     - Google reviews can increase online visibility and exposure, and positive reviews can boost your search engine rankings which in turn increases your online visibility and traffic. increase brand trust because people trust reviews from other customers. They also improve customer experience and help you gain a competitive advantage through both negative and positive feedback and customer interaction when a review is submitted, businesses can respond and engage with that customer.
