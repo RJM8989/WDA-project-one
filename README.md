@@ -19,11 +19,11 @@ source: [amiresponsive](https://ui.dev/amiresponsive?url=https://rjm8989.github.
 ## UX
 
 
-The strategy of the website was to promote the business and attract both physical and virtual traffic. To achieve this, I conducted research on similar websites to analyze how they advertised their business and the services they offered. Based on my research for the scope, I decided to include a price list, the business location, and a way for users to interact with the website, which led me to include a contact form and a booking form. Additionally, I added pictures of the staff and the services offered to the website.
+The strategy of the website was to promote the business and attract both physical and virtual traffic. To achieve this, I researched similar websites to analyze how they advertised their business and the services they offered. Based on my research for the scope, I decided to include a price list, the business location, and a way for users to interact with the website, which led me to include a contact form and a booking form. Additionally, I added pictures of the staff and the services offered on the website.
 
 For the skeleton and structure of the website, I used Figma for the wireframes. I decided to have a simple navbar at the top of the page, with three pages: Home, Contact/Meet the Team, and Price List. The Home page included an introduction and pictures of hairstyles and previous customers. The Contact/Meet the Team page introduced the staff and provided information such as the business location, opening times, a map, and a contact form. Finally, the Price List page listed the services and allowed users to book a service and choose their preferred barber.
 
-At the surface level, I added a carousel to the website, so users could look at pictures of the business. For the location, I chose a Google map because it was interactive and provided information on transport links and landmarks. The contact and book forms had multicoloured buttons to improve accessibility, and I chose a colour scheme that contrasted bold and bright colours with brown, red, and silver-grey for the text.
+At the surface level, I added a carousel to the website, so users could look at pictures of the business. For the location, I chose a Google map because it was interactive and provided information on transport links and landmarks. The contact and book forms had multicoloured buttons to improve accessibility, and I chose a colour scheme that contrasted bold and bright colours with brown, red, and silver grey for the text.
 
 
 ### Colour Scheme
@@ -35,7 +35,7 @@ Explain your colours and the colour scheme.
 
 - `#D9D9D9` used for primary text.
 - `#514d42` used for primary background color.
-- `#8f8f8f` used for button and social media links.
+- `#8f8f8f` used for buttons and social media links.
 - `#A30B37` used for button hover feature.
 
 
@@ -48,7 +48,7 @@ I used [coolors.co](https://coolors.co/514d42-d9d9d9-a30b370) to generate my col
 ### Typography
 
 
-- [Open Sans](https://fonts.google.com/specimen/Open+Sans) was used for the primary headers, titles and all other secondary text.
+- [Open Sans](https://fonts.google.com/specimen/Open+Sans) was used for the primary headers, titles, and all other secondary text.
 
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
@@ -71,7 +71,7 @@ I used [coolors.co](https://coolors.co/514d42-d9d9d9-a30b370) to generate my col
 - As a returning site user, I would like to use the booking form, so that I can pick my preferred barber.
 - As a returning site user would like to use the social media links so that I can keep updated on the business online.
 - As a returning site user, I want to be able to see different hairstyles so that I can see the haircuts I would prefer.
-- As a returning site user, I want to be able to find the price-list I need quickly so that compare the prices of the services offered.
+- As a returning site user, I want to be able to find the price list I need quickly so that compare the prices of the services offered.
 
 
 ## Wireframes
@@ -81,7 +81,7 @@ I've used both [Balsamiq](https://balsamiq.com/wireframes/) and [Figma](https://
 
 ### Desktop Wireframes
 
-These screenshots were taken before the start of the project throughout the design process the pages have slight variations compared to the orginal wireframe.
+These screenshots were taken before the start of the project throughout the design process the pages have slight variations compared to the original wireframe.
 
 [Click here to see the Desktop Wireframes]()
 
@@ -115,14 +115,14 @@ Price List
 
 - **NAVBAR**
 
-    - The navbar is an interactive feature on the website which allows users to navigate around, the benefit to the site is that it allows users to navigate the website easier and find the pages they're either on or want to find. 
+    - The navbar is an interactive feature on the website that allows users to navigate around, the benefit to the site is that it allows users to navigate the website easier and find the pages they're either on or want to find. 
     
 
 ![screenshot](assets/Documentation/feature01.png)
 
 - **CAROUSEL**
 
-    - The carousel is an interactive feature on the website which allows images to be added to the website, to help advertise the business. 
+    - The carousel is an interactive feature on the website that allows images to be added to the website, to help advertise the business. 
     At the moment it contains pictures of customers and the staff that work at the company. it allows the user to see the types of haircuts available and familiarise themselves with the staff.
 
 
@@ -130,7 +130,7 @@ Price List
 
 - **SOCIAL MEDIA LINKS**
 
-    - The social media links show the various social media apps used by the business. It helps to build loyalty and trust in your brand, to help advertise the business and to interact directly with customers in real-time. It allows the user to interact with the business.
+    - The social media links show the various social media apps used by the business. It helps to build loyalty and trust in your brand, to help advertise the business, and to interact directly with customers in real time. It allows the user to interact with the business.
 
 ![screenshot](assets/Documentation/feature03.png)
 
@@ -159,7 +159,7 @@ Price List
 
 - BOOKING FORM AND CONTACT US FORM
     
-   - A number of the limitations are both the booking form and the contact us form. The Contact Us form on HTML only allows a response sent message, whereas, with a back-end application such as PHP so I can design an interactive booking form, an e-mail would be sent to the address of the inquiry, alongside a message confirming acknowledgement, and JavaScript so I can design an interactive booking form where it would have a calendar and time to book a particular service and barber, the availability of the barbers and the ability to pay for services directly online and more interaction with customers for example the Pall Mall barbershop [website](https://www.pallmallbarbers.com/) you can see better interaction they have a booking form via a booking service like the Fresha online booking app [website](https://www.fresha.com/), with multiple locations available, a calendar and a choice of staff and service.
+   - A number of the limitations are both the booking form and the contact us form. The Contact Us form on HTML only allows a response sent message, whereas, with a back-end application such as PHP I can design an interactive contact form, an e-mail would be sent to the address of the inquiry, alongside a message confirming acknowledgment, and JavaScript so I can design an interactive booking form where it would have a calendar and a time to book a particular service and a preferred barber, the availability of the barbers and the ability to pay for services directly online and more interaction with customers, for example, the Pall Mall barbershop [website](https://www.pallmallbarbers.com/) you can see how much better the interaction with customers is. They have a booking form via a booking service like the Fresha online booking app [website](https://www.fresha.com/), with multiple locations available, a calendar, and a choice of staff and service.
 
 - GOOGLE REVIEWS
     - Google reviews can increase online visibility and exposure, and positive reviews can boost your search engine rankings which in turn increases your online visibility and traffic. increase brand trust because people trust reviews from other customers. They also improve customer experience and help you gain a competitive advantage through both negative and positive feedback and customer interaction when a review is submitted, businesses can respond and engage with that customer.
@@ -206,7 +206,7 @@ You can clone the repository by following these steps:
 
 1. Go to the [GitHub repository](https://github.com/RJM8989/WDA-project-one.git) 
 2. Locate the Code button above the list of files and click it 
-3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI, and click the copy button to copy the URL to your clipboard
 4. Open Git Bash or Terminal
 5. Change the current working directory to the one where you want the cloned directory
 6. In your IDE Terminal, type the following command to clone my repository:
@@ -226,7 +226,7 @@ By forking the GitHub Repository, we make a copy of the original repository on o
 You can fork this repository by using the following steps:
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/RJM8989/WDA-project-one.git)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+2. At the top of the Repository (not the top of the page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
 ### Local VS Deployment
@@ -263,7 +263,7 @@ You can fork this repository by using the following steps:
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com/@rdne/) | entire site | image | images  on all pages |
+| [Pexels](https://www.pexels.com/@rdne/) | entire site | image | images on all pages |
 | [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
 | [Font awesome](https://fontawesome.com/icons/) | entire site | icons | icons in the footer |
 
@@ -272,5 +272,5 @@ You can fork this repository by using the following steps:
 - I would like to thank my tutor, Pasquale Fasulo for his support throughout the development of this project.
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
-- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self-doubt and imposter syndrome.
 
