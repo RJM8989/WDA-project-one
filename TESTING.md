@@ -10,9 +10,9 @@
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FRJM8989.github.io%2FWDA-project-one%2Findex.html) | ![screenshot](documentation/validation/html-validation-home.png) | Stray tag |
-| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FRJM8989.github.io%2FWDA-project-one%2Fcontact.html) | ![screenshot](documentation/validation/html-validation-contact.png) | stray tag |
-| Pricelist | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FRJM8989.github.io%2FWDA-project-one%2Fpricelist.html) | ![screenshot](documentation/validation/html-validation-quiz.png) | stray tag and unclosed element|
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FRJM8989.github.io%2FWDA-project-one%2Findex.html) | ![screenshot](assets/Documentation/Validation/html-validation-home.png) | Stray tag |
+| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FRJM8989.github.io%2FWDA-project-one%2Fcontact.html) | ![screenshot](assets/Documentation/Validation/html-validation-contact.png) | stray tag and unclosed element|
+| Pricelist | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FRJM8989.github.io%2FWDA-project-one%2Fpricelist.html) | ![screenshot](assets/Documentation/Validation/html-validation-pricelist.png) | stray tag|
 
 
 ### CSS
