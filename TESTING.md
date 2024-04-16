@@ -22,7 +22,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FRJM8989.github.io%2FWDA-project-one) | ![screenshot](documentation/validation/css-validation-style.png) | Pass: No Errors |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FRJM8989.github.io%2FWDA-project-one) | ![screenshot](assets/Documentation/Validation/css-validation-style.png) | Errors: Font Awesome CSS |
 
 
 ## Browser Compatibility
@@ -46,9 +46,9 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 | Device | Home | About | Contact | etc | Notes |
 | --- | --- | --- | --- | --- | --- |
-| Mobile | ![screenshot](documentation/responsiveness/responsive-mobile-home.png) | ![screenshot](documentation/responsiveness/responsive-mobile-about.png) | ![screenshot](documentation/responsiveness/responsive-mobile-contact.png) | Works as expected |
+| Mobile | ![screenshot](assets/Documentation/Responsiveness/responsive-mobile-home.png) | ![screenshot](assets/Documentation/Responsiveness/responsive-mobile-contact.png) | ![screenshot](assets/Documentation/Responsiveness/responsive-mobile-pricelist.png) | Works as expected |
 | Tablet (DevTools) | ![screenshot](assets/Documentation/Responsiveness/responsive-tablet-home.png) | ![screenshot](assets/Documentation/Responsiveness/responsive-tablet-contact.png) | ![screenshot](assets/Documentation/Responsiveness/responsive-tablet-pricelist.png) | Works as expected |
-| Desktop | ![screenshot](documentation/responsiveness/responsive-desktop-home.png) | ![screenshot](documentation/responsiveness/responsive-desktop-about.png) | ![screenshot](documentation/responsiveness/responsive-desktop-contact.png) | ![screenshot](documentation/responsiveness/responsive-desktop-etc.png) | Works as expected |
+| Desktop | ![screenshot](assets/Documentation/Responsiveness/responsive-desktop-home.png) | ![screenshot](assets/Documentation/Responsiveness/responsive-desktop-contact.png) | ![screenshot](assets/Documentation/Responsiveness/responsive-desktop-pricelist.png) | Works as expected |
 
 
 ## Lighthouse Audit
@@ -58,9 +58,9 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/lighthouse/lighthouse-home-mobile.png) | ![screenshot](assets/Documentation/Lighthouse/lighthouse-home-pricelist.png) | Some minor warnings |
-| About | ![screenshot](documentation/lighthouse/lighthouse-about-mobile.png) | ![screenshot](assets/Documentation/Lighthouse/lighthouse-contact-desktop.png) | Some minor warnings |
-| Gallery | ![screenshot](documentation/lighthouse/lighthouse-gallery-mobile.png) | ![screenshot](assets/Documentation/Lighthouse/lighthouse-home-pricelist.png) | Slow response time due to large images |
+| Home | ![screenshot](assets/Documentation/Lighthouse/lighthouse-home-mobile.png) | ![screenshot](assets/Documentation/Lighthouse/lighthouse-contact-desktop.png) | Slow response time due to large images|
+| Contact | ![screenshot](assets/Documentation/Lighthouse/lighthouse-contact-mobile.png) | ![screenshot](assets/Documentation/Lighthouse/lighthouse-contact-desktop.png) | Slow response time due to large images |
+| Gallery | ![screenshot](assets/Documentation/Lighthouse/lighthouse-pricelist-mobile.png) | ![screenshot](assets/Documentation/Lighthouse/lighthouse-desktop-pricelist.png) | Slow response time due to large images |
 
 
 ## User Story Testing
@@ -68,16 +68,17 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature01.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature02.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature03.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature04.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature05.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature06.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature07.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature08.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature09.png) |
-| repeat for all remaining user stories | x |
+|As a new site user, I want to be able to find the location I need quickly so that I don’t have to waste time browsing Google Maps.| ![screenshot](assets/Documentation/Features/feature01.png) |
+|As a new site user, I want to be able to find the price list quickly so that I can find the prices of the services offered.| ![screenshot](assets/Documentation/Features/feature02.png) |
+|-As a new site user, I want to be able to see different hairstyles so that I can see the haircuts I would prefer..| ![screenshot](assets/Documentation/Features/feature03.png) |
+|As a new site user, I would like to you the contact form, so that I can enquire about of one the services offered.| ![screenshot](assets/Documentation/Features/feature04.png) |
+|As a new site user, I would like to use the social media links, so that I can follow the business online.| ![screenshot](assets/Documentation/Features/feature05.png) |
+|As a returning site user, I would like to be able to book an appointment, the booking form would allow me to do this.| ![screenshot](assets/Documentation/Features/feature06.png) |
+|As a returning site user would like to use the social media links so that I can keep updated on the business online.| ![screenshot](assets/Documentation/Features/feature05.png) |
+|As a returning site user, I want to be able to see different hairstyles so that I can see the haircuts I would prefer.| ![screenshot](assets/Documentation/Features/feature03.png) |
+|As a returning site user, I want to be able to find the price-list I need quickly so that compare the prices of the services offered.| ![screenshot](assets/Documentation/Features/feature02.png) |
+
+
 
 ## Bugs
 
@@ -118,19 +119,8 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
     ![screenshot](assets/Documentation/unfixed-bug01.png)
 
-    - Attempted fix: I tried to add additional media queries to handle this, but things started becoming too small to read.
+    - Attempted fix: I tried to put the background colour into CSS as per standard practice, but it creates a clash of styles on the index page.
 
-- For PP3, when using a helper `clear()` function, any text above the height of the terminal does not clear, and remains when you scroll up.
-
-    ![screenshot](documentation/bugs/unfixed-bug02.png)
-
-    - Attempted fix: I tried to adjust the terminal size, but it only resizes the actual terminal, not the allowable area for text.
-
-- When validating HTML with a semantic `section` element, the validator warns about lacking a header `h2-h6`. This is acceptable.
-
-    ![screenshot](documentation/bugs/unfixed-bug03.png)
-
-    - Attempted fix: this is a known warning and acceptable, and my section doesn't require a header since it's dynamically added via JS.
 
 
 > [!NOTE]  

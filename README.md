@@ -5,7 +5,8 @@
 [![GitHub repo size](https://img.shields.io/github/repo-size/RJM8989/WDA-project-one)](https://github.com/RJM8989/WDA-project-one)
 
 
-This project was to design a front-end website for Darren's Barbershop. The aim of this project was that the website would generate traffic from a wider audience to help increase the number of new customers for the business as well as cater for existing customers through the use of a booking form. The website also has information for new and existing customers such as a description of each barber, the address, a Google map, etc...
+This project was to design a front-end website for Darren's Barbershop, based on a real-life barbershop in London called Austin's Barbershop. The aim of this project was that the website would generate traffic from a wider audience to help increase the number of new customers for the business as well as cater for existing customers through the use of a booking form. The website also has information for new and existing customers such as a description of each barber, the address, a Google map, etc...
+
 
 
 
@@ -67,7 +68,7 @@ I used [coolors.co](https://coolors.co/514d42-d9d9d9-a30b370) to generate my col
 
 
 - As a returning site user, I would like to be able to book an appointment, the booking form would allow me to do this.
-- As a returning site user, I would like to use the booking, so that I can pick my preferred barber.
+- As a returning site user, I would like to use the booking form, so that I can pick my preferred barber.
 - As a returning site user would like to use the social media links so that I can keep updated on the business online.
 - As a returning site user, I want to be able to see different hairstyles so that I can see the haircuts I would prefer.
 - As a returning site user, I want to be able to find the price-list I need quickly so that compare the prices of the services offered.
@@ -231,7 +232,7 @@ You can fork this repository by using the following steps:
 ### Local VS Deployment
 
 
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
+< Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
 
 
 ## Credits
