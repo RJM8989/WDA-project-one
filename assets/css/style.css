@@ -111,7 +111,7 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 50%;
 }
 
 .social-links li a i {
@@ -197,8 +197,8 @@ address {
   padding: 10px;
 }
 
-table {
-  padding: 10px;
+.div div div div table {
+  padding: 15px;
 }
 
 /* Map */
@@ -211,8 +211,8 @@ table {
 }
 
 .google-map iframe {
-  height: 75%;
-  width: 75%;
+  height: 100%;
+  width: 100%;
   padding: 10px;
   left: 10;
   top: 10px;
