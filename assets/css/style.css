@@ -28,7 +28,7 @@ h2 {
   ;
 }
 
-/*--------------------------------------------Description*/
+/*--------------------------------------------Hero Image*/
 
 
 .hero-image {
@@ -57,12 +57,6 @@ h2 {
 }
 
 
-/*.hero-text h1>strong,
-p>strong {
-  color: #e23838;
-
-}
-
 
 
 
@@ -72,7 +66,9 @@ p>strong {
   max-height: 350px;
   border-radius: 5px;
   margin-right: 9px;
-
+  border: 3px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  
 }
 
 .text-box p {
@@ -136,7 +132,7 @@ footer {
   padding: 20px;
 }
 
-/*----------- meet the team */
+/*----------- meet the team * W3 Schools--------/
 /* Three columns side by side */
 .column {
   float: left;
@@ -197,9 +193,6 @@ address {
   padding: 10px;
 }
 
-.div div div div table {
-  padding: 15px;
-}
 
 /* Map */
 
@@ -221,14 +214,14 @@ address {
 
 }
 
-/* Contact Form */
+/* Contact Form ---W3 Schools */
 .contactform {
   box-sizing: border-box;
   border: 10px;
   padding: 16px;
 } 
 
-/* Style inputs */
+/* Style inputs for contact form */
 input[type=text],
 select,
 textarea {
@@ -290,13 +283,15 @@ input[type=submit]:hover {
 }
 
 
+/*-----booking form bootstrap card----*/
+
 
 .card-group {
   padding: 10px;
 }
 
 .card-dark {
-  padding: 15px;
+  padding: 10px;
 }
 
 .card-dark img {
