@@ -1,4 +1,4 @@
-# [WDA PROJECT ONE.GIT](https://rjm8989.github.io/WDA-project-one)
+# [User-centric frontend development.GIT](https://rjm8989.github.io/WDA-project-one)
 
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/t/RJM8989/WDA-project-one)](https://github.com/RJM8989/WDA-project-one/commits/main)
 [![GitHub last commit](https://img.shields.io/github/last-commit/RJM8989/WDA-project-one)](https://github.com/RJM8989/WDA-project-one/commits/main)
@@ -245,6 +245,7 @@ You can fork this repository by using the following steps:
 | --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
+| [W3Schools](https://www.w3schools.com/css/css_link.asp) | CSS Links, A link styled as button | Booking Form buttons |
 | [W3Schools](https://www.w3schools.com/howto/howto_css_blurred_background.asp) | Hero Image | blurred box on hero image |
 | [W3Schools](https://www.w3schools.com/howto/howto_css_contact_section.asp) | Contact form | interactive contact form |
 | [Bootstrap](https://getbootstrap.com/docs/5.3/components/carousel/) | Carousel | pictures on home page |

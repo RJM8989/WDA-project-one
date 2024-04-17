@@ -188,6 +188,16 @@ footer {
   background-color: #A30B37;
 }
 
+
+/*----------- meet the team images*/
+
+.meet-the-team img {
+  border: 3px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  
+}
+
+
  /*----------- address*/
 address {
   padding: 10px;
@@ -283,7 +293,7 @@ input[type=submit]:hover {
 }
 
 
-/*-----booking form bootstrap card----*/
+/*-----booking form bootstrap card button link W3Schools----*/
 
 
 .card-group {
@@ -300,7 +310,7 @@ input[type=submit]:hover {
   width: 50%
 }
 
-.card-text button {
+.card-dark a:link, a:visited {
   border: none;
   outline: 0;
   display: inline-block;
@@ -312,6 +322,6 @@ input[type=submit]:hover {
   
 }
 
-.card-text button:hover {
+.card-dark a:hover, a:active {
   background-color: #A30B37;
 }
