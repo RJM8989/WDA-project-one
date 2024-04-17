@@ -12,7 +12,7 @@
 | --- | --- | --- | --- |
 | Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FRJM8989.github.io%2FWDA-project-one%2Findex.html) | ![screenshot](assets/Documentation/Validation/html-validation-home.png) | Stray tag |
 | Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FRJM8989.github.io%2FWDA-project-one%2Fcontact.html) | ![screenshot](assets/Documentation/Validation/html-validation-contact.png) | stray tag |
-| Pricelist | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FRJM8989.github.io%2FWDA-project-one%2Fpricelist.html) | ![screenshot](assets/Documentation/Validation/html-validation-pricelist.png) | stray tag|
+| Pricelist | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FRJM8989.github.io%2FWDA-project-one%2Fpricelist.html) | ![screenshot](assets/Documentation/Validation/html-validation-pricelist.png) | Element Descendancy |
 
 
 ### CSS
@@ -22,7 +22,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FRJM8989.github.io%2FWDA-project-one) | ![screenshot](assets/Documentation/Validation/css-validation-style.png) | Errors: Font Awesome CSS |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FRJM8989.github.io%2FWDA-project-one) | ![screenshot](assets/Documentation/Validation/css-validation-style.png) |  |
 
 
 ## Browser Compatibility
