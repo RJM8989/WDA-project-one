@@ -246,6 +246,7 @@ As far as I’m aware, there are no differences between the local version and th
 | [W3Schools](https://www.w3schools.com/css/css_link.asp) | CSS Links, A link styled as button | Booking Form buttons |
 | [W3Schools](https://www.w3schools.com/howto/howto_css_blurred_background.asp) | Hero Image | blurred box on hero image |
 | [W3Schools](https://www.w3schools.com/howto/howto_css_contact_section.asp) | Contact form | interactive contact form |
+| [MDN web docs_ ](https://www.w3schools.com/howto/howto_css_contact_section.asp) | Contacts | address: The Contact Address element |
 | [Bootstrap](https://getbootstrap.com/docs/5.3/components/carousel/) | Carousel | pictures on home page |
 | [Bootstrap](https://getbootstrap.com/docs/5.3/content/tables/) | Tables | table for the pricelist |
 | [Bootstrap](https://getbootstrap.com/docs/5.3/components/card/) | Card | for meet the team and booking page |
