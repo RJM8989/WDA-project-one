@@ -83,7 +83,7 @@ I've used both [Balsamiq](https://balsamiq.com/wireframes/) and [Figma](https://
 
 These screenshots were taken before the start of the project throughout the design process the pages have slight variations compared to the original wireframe.
 
-[Click here to see the Desktop Wireframes]()
+[Click here to see the Desktop Wireframes](https://www.figma.com/file/lLJEQAOiVQzq88ahDIDnvT/Project-One-wireframe?type=design&node-id=0%3A1&mode=design&t=P8iwzpm4nrJ0ixg6-1)
 
 Home
   - ![screenshot](assets/Documentation/desktop-home.png)
@@ -97,7 +97,7 @@ Price List
 
 ### Mobile Wireframes
 
-[Click here to see the Mobile Wireframes]()
+[Click here to see the Mobile Wireframes](https://balsamiq.cloud/sgt4xn/pej4pfk)
 
 Home
   - ![screenshot](assets/Documentation/mobile-home.png)
